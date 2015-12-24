@@ -1,0 +1,31 @@
+span.rollover {
+    opacity: 1;
+    -o-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -webkit-transition: -webkit-transform 1s;
+    background:url(../images/mag.png) center center no-repeat #000;
+    cursor: pointer;
+    height: 138px;
+    width: 230px;
+    position: absolute;
+    top:0px;
+    z-index: 10;
+    opacity: 0;
+}
+
+span.rollover:hover, span.download:hover {
+opacity: .7;
+-o-transition-duration: 1s;
+-moz-transition-duration: 1s;
+-webkit-transition: -webkit-transform 1s;
+-webkit-box-shadow: 0px 0px 4px #000;
+-moz-box-shadow: 0px 0px 4px #000;
+box-shadow: 0px 0px 4px #000;
+}
+
+a.download {
+    bottom: 10px;
+    right: 25%;
+    position: absolute;
+    opacity: 1;
+}
